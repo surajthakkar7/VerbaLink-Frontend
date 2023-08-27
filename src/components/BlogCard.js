@@ -39,7 +39,7 @@ export default function BlogCard({
 }) {
   //const { data } = await axios.get("/api/v1/blog/all-blog");
 
-  const imageUrl = `http://localhost:8080/api/v1/blog/image/${id}`;
+  const imageUrl = `https://verbalink.onrender.com/api/v1/blog/image/${id}`;
 
  // const base64Image = btoa(String.fromCharCode(...new Uint8Array(ArrayBuffer)));
  // const imageUrl = `data:image/png;base64,${image.data}`

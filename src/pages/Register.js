@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 import axios from "axios";
 import logo from "../components/images/logo.png";
 
-axios.defaults.baseURL = 'http://localhost:8080'; // Update the port if needed
+axios.defaults.baseURL = 'https://verbalink.onrender.com'; // Update the port if needed
 
 
 // Styled components
