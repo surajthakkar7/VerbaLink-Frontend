@@ -16,6 +16,8 @@ import styled from "@emotion/styled"; // Import styled from emotion
 
 // Styled component for the card
 const StyledCard = styled(Card)`
+display: flex;
+  flex-direction: column;
   width: 40%;
   margin: auto;
   margin-top: 20px;
@@ -84,7 +86,7 @@ export default function BlogCard({
         title={username}
         subheader={time}
       />
-      <CardMedia component="img" height="194" image={imageUrl} alt="Blog" />
+    <CardMedia component="img" width="100%" height="auto" image={imageUrl} alt="Blog" />
       <CardContent>
         <Typography variant="h6" color="text.primary">
           Title: {title}
